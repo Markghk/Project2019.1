@@ -105,8 +105,15 @@ class Human:
         print(f"{d:=^50}")
         human_i = f"{self.name}'s indexes"
         print(f"{human_i:=^50}")
+        print(f"Money = {self.money}")
+        print(f"Satiety = {self.satiety}")
+        print(f"Gladness = {self.gladness}")
+        print(f"Thirst = {self.thirst}")
         home_i = "Home indexes"
         print(f"{home_i:=^50}")
+        print(f"Mess = {self.home.mess}")
+        print(f"Food = {self.home.food}")
+        print(f"Mess = {self.home.water}")
         car_i = f"{self.car.brand} car indexes"
         print(f"{car_i:=^50}")
         print(f"Fuel = {self.car.fuel}")
