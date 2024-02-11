@@ -2,7 +2,7 @@ class Razer:
     def __init__(self):
         super().__init__()
         self.buttons = 6
-        self.logotype = "Razer 3 snakes"
+        self.logotype = "razer 3 snakes"
         self.company = "Razer"
 class Wired:
     def __init__(self):
